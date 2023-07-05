@@ -12,10 +12,13 @@
 
 
 ## General Information
-- Repository created just for learning purposes as I wanna be DevOps :)
+- This repository was created solely for learning purposes as I aspire to become a DevOps professional :)
 
 ## Technologies Used
-- Bash, Fedora 38, AlmaLinux and Ubuntu virtual machines
+- Bash
+- Fedora 38
+- AlmaLinux
+- Ubuntu virtual machine
 
 ## Features
 - Nothing special - just bash scripts
