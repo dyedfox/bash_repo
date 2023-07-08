@@ -2,8 +2,10 @@
 
 n=1
 
-while [ ${!n} ]
+while [[ ${!n} ]]
     do
         echo ${!n}
         (( n++ ))
     done
+
+
