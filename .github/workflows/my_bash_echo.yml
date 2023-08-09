@@ -1,0 +1,17 @@
+name: Run My Name Bash Script
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Execute my_echo.sh
+        run: bash my_echo.sh
