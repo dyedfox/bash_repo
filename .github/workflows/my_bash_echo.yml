@@ -4,14 +4,15 @@ on:
   push:
     branches:
       - main
-
+  workflow_dispatch:
+    
 jobs:
   run-script:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       
       - name: Execute my_echo.sh
         run: bash my_echo.sh
