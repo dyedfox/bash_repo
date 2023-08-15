@@ -1,5 +1,11 @@
 #!/bin/bash
 
+### Suppose we have a text file that contains some file names, for example:
+### jobe
+### /var/www/html/index.html
+### /var/www/html/jobe
+### Write a shell script that takes the name of such a text file as an argument and shows its content
+
 cat $1
 #для переходу на новий рядок
 echo

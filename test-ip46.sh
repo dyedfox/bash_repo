@@ -1,6 +1,10 @@
 #!/bin/bash
 
-#awk '/^[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}\s[0,1][1-9]\/[2,3][0-9]$/ {print $0}' - пошук збігів
+### ADDITIONAL TASK 1 - Please write tests that determine whether the value of variables is in the proper format for an IPv4 and IPv6 address 
+### and print "Could be an IPv6 IP address" or "Looks like an IPv4 IP address"
+
+
+# awk '/^[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}\s[0,1][1-9]\/[2,3][0-9]$/ {print $0}' - пошук збігів
 
 # regex = ^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$
 
